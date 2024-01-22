@@ -1,13 +1,13 @@
 {
   "name": "zeha",
-  "version": "1.0.1",
-  "main": "dist/index/js",
+  "version": "1.0.2",
+  "main": "dist/index.js",
   "license": "MIT",
   "files": [
     "dist"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "tsc -d",
     "prepublishOnly": "npm run build",
     "test": "jest"
   },
